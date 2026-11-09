@@ -53,3 +53,17 @@ The [Day 09 exercise](day-09/redirection.md#exercise-peruvian-amazon-wildlife-su
 Practice shell pipelines and revisit the commands without looking at notes before moving to more advanced Linux topics.
 
 > This README is a navigation and reference update. It does not represent a new study session.
+
+## Common redirection mistakes (review notes)
+
+These are quick reminders based on earlier command-line exercises, not a new study session.
+
+| Goal | Command | Reminder |
+| --- | --- | --- |
+| Combine three files | `cat a.txt b.txt c.txt > all.txt` | The destination is overwritten. |
+| Remove duplicate lines | `sort -u all.txt > unique.txt` | `sort -u` also puts lines in order. |
+| Add the current date | `date >> unique.txt` | `>>` appends without removing prior lines. |
+| Save an error message | `cat missing.txt 2>> errors.txt` | `2>>` appends **stderr**, not stdout. |
+| Save both output streams | `command > run.log 2>&1` | Redirect stdout first, then stderr to the same destination. |
+
+**Self-check:** What happens if you use `>` instead of `>>` when adding the date? The earlier content gets replaced. When testing a missing file, use a file that is intentionally absent; otherwise there may be no error to redirect.
