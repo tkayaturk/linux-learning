@@ -67,3 +67,15 @@ These are quick reminders based on earlier command-line exercises, not a new stu
 | Save both output streams | `command > run.log 2>&1` | Redirect stdout first, then stderr to the same destination. |
 
 **Self-check:** What happens if you use `>` instead of `>>` when adding the date? The earlier content gets replaced. When testing a missing file, use a file that is intentionally absent; otherwise there may be no error to redirect.
+
+## Restart checklist (prepared reference)
+
+This checklist is for the **next** hands-on session. Adding it is documentation maintenance and does not imply the exercises were completed today.
+
+- [ ] Explain the difference between `>`, `>>`, `2>`, and `2>>` without notes.
+- [ ] Recreate the wildlife-survey solution: concatenate, sort unique species, then append another line.
+- [ ] Practice `grep -i`, `wc -l`, and `sort -nr` with a small test file.
+- [ ] Compare `sort -u file.txt` with `sort file.txt | uniq`.
+- [ ] Use a pipeline to count matching lines and redirect the result to a file.
+
+After completing them, record the commands actually used and any errors encountered in a new study-log entry.
