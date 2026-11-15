@@ -16,6 +16,18 @@ My hands-on notes and exercises from the **Linux Command Line Bootcamp**. This r
 | [Day 08](day-08/working-with-files.md) | Reading, inspecting, counting, and sorting files |
 | [Day 09](day-09/redirection.md) | Standard streams, redirection, and wildlife survey exercise |
 
+## Reference library
+
+These supplementary guides are **prepared study resources**, not proof of completed sessions. Use them while reviewing or practicing the matching topic.
+
+| Topic | Reference | What it covers |
+| --- | --- | --- |
+| Shell pipelines | [Pipelines practice](reference/pipelines-practice.md) | Pipes, sorting, counting duplicates, filtering output |
+| File permissions | [Permissions mini-guide](reference/permissions-mini-guide.md) | Read/write/execute bits, numeric modes, `chmod` |
+| Environment variables | [Environment variables](reference/environment-variables.md) | `PATH`, `export`, `printenv`, child processes |
+
+**Suggested review path:** start with the [Day 09 redirection exercise](day-09/redirection.md), work through the pipelines reference, then revisit permissions and environment variables. Log exercises only after actually running them.
+
 ## Command quick reference
 
 ```bash
