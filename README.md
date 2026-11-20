@@ -25,8 +25,9 @@ These supplementary guides are **prepared study resources**, not proof of comple
 | Shell pipelines | [Pipelines practice](reference/pipelines-practice.md) | Pipes, sorting, counting duplicates, filtering output |
 | File permissions | [Permissions mini-guide](reference/permissions-mini-guide.md) | Read/write/execute bits, numeric modes, `chmod` |
 | Environment variables | [Environment variables](reference/environment-variables.md) | `PATH`, `export`, `printenv`, child processes |
+| Scheduled tasks | [Cron scheduling](reference/cron-scheduling.md) | Crontab timing, cron environment, safe logging |
 
-**Suggested review path:** start with the [Day 09 redirection exercise](day-09/redirection.md), work through the pipelines reference, then revisit permissions and environment variables. Log exercises only after actually running them.
+**Suggested review path:** start with the [Day 09 redirection exercise](day-09/redirection.md), work through the pipelines reference, then revisit permissions and environment variables, and finish with the cron scheduling guide. Log exercises only after actually running them.
 
 ## Command quick reference
 
